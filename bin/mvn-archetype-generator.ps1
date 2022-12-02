@@ -5,7 +5,7 @@ if (-not $ProjectName ) {
 }
 
 if ($ProjectName -eq "") {
-	Write-Error "ProjectName can not be empty."
+	Write-Error "Project Name can not be empty."
 	Exit
 }
 
@@ -15,15 +15,15 @@ Write-Host "Starting maven archetype plugin..."
 cd $ProjectName
 wget.exe "https://gitignore.io/api/java,maven" -O .gitignore
 
-# === GitIfnore ===
+# === GitIgnore ===
 @'
-my-*
-xx-*
-gh-*
-git-*
-mvn-*
-zz_*
-.idea/
+/my-*
+/xx-*
+/gh-*
+/git-*
+/mvn-*
+/zz_*
+/.idea
 '@ >> .gitignore
 
 $Answer = Read-Host "`n => Initialize Git-Flow? (Y/n) "
