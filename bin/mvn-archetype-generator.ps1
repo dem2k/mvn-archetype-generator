@@ -18,11 +18,11 @@ wget.exe "https://gitignore.io/api/java,maven" -O .gitignore
 # === GitIgnore ===
 @'
 /my-*
-/xx-*
 /gh-*
 /git-*
 /mvn-*
-/zz_*
+/xx-*
+/zz-*
 /.idea
 '@ >> .gitignore
 
