@@ -24,6 +24,7 @@ wget.exe "https://gitignore.io/api/java,maven" -O .gitignore
 /xx-*
 /zz-*
 /.idea
+/config
 '@ >> .gitignore
 
 $Answer = Read-Host "`n => Initialize Git-Flow? (Y/n) "
