@@ -26,7 +26,10 @@ public class AppMain {
             System.exit(1);
         }
 
-        AppConfig config = AppConfig.builder().foo(foo).bar(bar).build();
+        AppConfig config = AppConfig.builder()
+                .foo(foo)
+                .bar(bar)
+                .build();
         app.withConfiguration(config);
     }
 

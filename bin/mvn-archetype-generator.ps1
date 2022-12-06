@@ -10,7 +10,7 @@ if ($ProjectName -eq "") {
 }
 
 Write-Host "Starting maven archetype plugin..."
-& mvn archetype:generate -DarchetypeGroupId="dem2k" -DarchetypeArtifactId="simple-archetype" -DinteractiveMode="false" -DgroupId="dem2k" -DartifactId="$ProjectName" -Dversion="0.1.1-SNAPSHOT"
+& mvn archetype:generate -DarchetypeGroupId="dem2k" -DarchetypeArtifactId="simple-archetype" -DinteractiveMode="false" -DgroupId="foobar" -DartifactId="$ProjectName" -Dversion="0.1.1-SNAPSHOT"
 
 cd $ProjectName
 wget.exe "https://gitignore.io/api/java,maven" -O .gitignore
