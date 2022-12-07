@@ -4,11 +4,9 @@
     "version": "0.0.0",
     "license": "freeware",
     "description": "loremipsum",
-    "suggest": {
-        "JDK": "java/zulufx17-jdk"
-    },
+    "suggest": {"JDK": "java/zulufx17-jdk"},
     "url": "https://github.com/dem2k/${artifactId}/releases/download/v0.0.0/${artifactId}.zip",
-    "hash": "4711",
+    "hash": "0",
     "persist": "config",
     "post_install": "\"@SET VAR1=KEY1`n@SET VAR2=KEY2\" | out-file $persist_dir/config/properties.bat -encoding ascii",
     "bin": "${artifactId}.bat",
