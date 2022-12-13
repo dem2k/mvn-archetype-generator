@@ -5,12 +5,15 @@ package ${package};
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.ToString;
 
-@Getter
-@Builder
+@Getter @Builder @ToString
 public class AppConfig {
 
-    private final String foo;
-    private final String bar;
+    @Builder.Default
+    private final String foo = "foo";
+
+    @Builder.Default
+    private final String bar = "bar";
 
 }
