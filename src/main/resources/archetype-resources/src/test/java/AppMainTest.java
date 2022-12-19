@@ -1,14 +1,14 @@
-#set( $sh = '#' )
-#set( $ss = '$' )
-#set( $se = '\' )
 package ${package};
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 public class AppMainTest {
 
     @Test
     public void testAppMain() {
-        AppMain app = new AppMain();
+        assertNotNull(new AppMain());
     }
+    
 }

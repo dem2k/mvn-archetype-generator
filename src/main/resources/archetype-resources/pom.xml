@@ -31,9 +31,9 @@
             <version>4.7.0</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -52,7 +52,7 @@
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.4.0</version>
                 <configuration>
-                    <excludeArtifactIds>junit,lombok,hamcrest-core</excludeArtifactIds>
+                    <excludeArtifactIds>junit,lombok,hamcrest,apiguardian-api,junit-jupiter-api,junit-jupiter-engine,junit-platform-commons,junit-platform-engine,opentest4j</excludeArtifactIds>
                 </configuration>
             </plugin>
 <!--
