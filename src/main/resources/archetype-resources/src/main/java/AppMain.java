@@ -12,7 +12,7 @@ public class AppMain {
     @CommandLine.Option(names = "-f", description = "foo", required = false)
     private static String foo = "Foo";
 
-    @CommandLine.Option(names = "-b", description = "foo", required = false)
+    @CommandLine.Option(names = "-b", description = "bar", required = false)
     private static String bar = "Bar";
 
     @CommandLine.Option(names = {"-?", "-h"}, description = "Display this Help Message", usageHelp = true)
