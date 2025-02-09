@@ -25,6 +25,7 @@
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
+        <include>**/*.sh</include>
         <include>**/*.bat</include>
         <include>**/*.ps1</include>
         <include>lombok.config</include>

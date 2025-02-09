@@ -14,6 +14,7 @@ Write-Host "Starting maven archetype plugin..."
 
 cd $ProjectName
 # wget.exe "https://gitignore.io/api/java,maven" -O .gitignore
+# curl -sL "https://www.toptal.com/developers/gitignore/api/java,maven" -o .gitignore
 
 # === GitIgnore ===
 @'

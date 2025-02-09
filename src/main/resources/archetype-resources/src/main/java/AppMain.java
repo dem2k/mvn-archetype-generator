@@ -34,7 +34,7 @@ public class AppMain {
     }
 
     private void withConfiguration(AppConfig config) {
-        System.out.printf("%s? %s!", config.foo(), config.bar());
+        System.out.printf("%s? %s!\n", config.foo(), config.bar());
     }
 
 }
